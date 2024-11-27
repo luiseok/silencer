@@ -25,6 +25,7 @@ jobs:
           mingw-w64-x86_64-tools-git    
         
     - name: Build Binary
+      shell: msys2 {0}
       run: |
         export PATH=/mingw64/bin:$PATH
         export MSYSTEM=MINGW64
