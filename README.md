@@ -1,7 +1,5 @@
 # silencer
 
-> Originated by [EDRSilencer](https://github.com/netero1010/EDRSilencer)
-
 A tool that blocks outbound network traffic for specific processes using Windows Filtering Platform (WFP) APIs.
 
 ## Features
